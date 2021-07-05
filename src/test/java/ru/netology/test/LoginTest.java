@@ -21,8 +21,8 @@ public class LoginTest {
     }
 
     @AfterAll
-    public static void down() {
-        //DbUtil.clearDb();
+    public static void down() throws SQLException {
+        DbUtil.clearDb();
     }
 
     @Test
